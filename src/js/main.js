@@ -15,7 +15,6 @@ $(document).ready(function(){
 	    }else if (e.keyCode == 13){
 	    	timer.stop();
 	    	$('#chrono').html(['00:','00:','00']);
-	    	console.log(data);
 	    }
 
 		timer.addEventListener('secondsUpdated', function (e) {
