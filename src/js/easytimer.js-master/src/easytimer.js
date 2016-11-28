@@ -34,7 +34,7 @@ var Timer = (
         /*
          * General functions, variables and constants
          */
-        var SECOND_TENTHS_PER_SECOND = 10,
+        var SECOND_TENTHS_PER_SECOND = 100,
             SECONDS_PER_MINUTE = 60,
             SECOND_TENTHS_PER_MINUTE = 600,
             MINUTES_PER_HOUR = 60,
@@ -55,7 +55,7 @@ var Timer = (
             DAYS = 'days',
 
             unitsInMilliseconds = {
-                secondTenths: 100,
+                secondTenths: 10,
                 seconds: 1000,
                 minutes: 60000,
                 hours: 3600000,
