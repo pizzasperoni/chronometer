@@ -21,8 +21,8 @@
     "vinyl-ftp": "^0.5.0"
   },
   "scripts": {
-    "start": "node app",
-    "postinstall": "gulp serve"
+    "start": "gulp serve",
+    "postinstall": "gulp build"
   },
   "repository": {
     "type": "git",
