@@ -22,7 +22,7 @@
   },
   "scripts": {
     "start": "gulp serve",
-    "postinstall": "npm install && bower install && gulp serve"
+    "postinstall": "npm install && bower install"
   },
   "repository": {
     "type": "git",

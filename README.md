@@ -23,6 +23,8 @@ After installing all the node modules you are ready to run the server, the follo
 ```
 gulp serve
 ```
+Once the server is running, go fullscreen and start/stop the chronometer using the space bar.
+To restart the chronometer just hit enter.
 
 ### Compiling all files
 
