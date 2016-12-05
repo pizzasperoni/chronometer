@@ -21,8 +21,7 @@
     "vinyl-ftp": "^0.5.0"
   },
   "scripts": {
-    "start": "gulp serve",
-    "postinstall": "npm install && bower install"
+    "start": "gulp serve"
   },
   "repository": {
     "type": "git",
